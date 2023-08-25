@@ -8,7 +8,7 @@
 <body>
     <p>If time is 10 AM Print Good Morning . If time is above 12 PM Print Good Afternoon . If time is above 8 Pm print good night</p>
     <?php
-$time = date("H:i"); // Get the current time in 24-hour format
+$time = date("H:i"); 
 
 if ($time >= "06:00" && $time < "12:00") {
     echo "Good Morning";
